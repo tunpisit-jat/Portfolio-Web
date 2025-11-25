@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/assets/img/icon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <a href="#">Portfolio</a>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#aboutme">About Me</a></li>
+                        <li><a href="#skills">Skill</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="welcome hidden">
+        <div class="container-welcome">
+            <div class="icons">
+                <a href="https://github.com/tunpisit-jat/Portfolio-Web.git"><i class="fas fa-code"></i></a>
+                <a href="https://www.facebook.com/tunpisit.jatavayos.2025?locale=th_TH"><i class="fas fa-user"></i></a>
+                <a href="https://github.com/tunpisit-jat"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="welcome-text">
+                <h1>
+                    Welcome To My <br>
+                    <span>Portfolio Website</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <div class="aboutme-box">
+                <div class="aboutme-text hidden">
+                    <h1 class="tes">
+                        Hello, I'm <br>
+                        <span style="color: #3971B8;">Tunpisit Jatavayos</span>
+                    </h1>
+                    <p>
+                        I am currently studying at <span style="color: #3971B8; font-size: 20px; font-weight: 600;">Sripatum University</span>  Khon Kaen Campus. <br>
+                        I am a student in the Faculty of Information Technology, <br>
+                        majoring in Digital Business Innovation.
+                    </p>
+
+                    <div class="aboutme-btn">
+                        <div class="resume-btm">
+                            <a href="#Projects">Projects</a>
+                        </div>
+                        <div class="projects-btn" style="margin-left: 1.5rem;">
+                            <a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutme-img hidden">
+                    <img src="../assets/img/tunpisit.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-Skills">
+                Skills
+            </h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                    <div class="skill-info">
+                        <h3>HTML</h3>
+                        <p>Advanced --- 80%</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    <div class="skill-info">
+                        <h3>CSS</h3>
+                        <p>Intermediate --- 65%</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript">
+                    <div class="skill-info">
+                        <h3>JAVASCRIPT</h3>
+                        <p>Beginner --- 30%</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                    <div class="skill-info">
+                        <h3>FIGMA</h3>
+                        <p>Intermediate --- 65%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates" id="skills">
+        <div class="container">
+            <h2 class="section-certificates">
+                CERTIFICATES
+            </h2>
+            <div class="certificates-container">
+                <div class="certificates-card">
+                    <img src="/assets/img/Certificate_hackathon.jpg" alt="HTML">
+                </div>
+                <div class="certificates-card">
+                    <img src="/assets/img/Certificate_html&css.PNG" alt="HTML">
+                </div>
+                <div class="certificates-card">
+                    <img src="/assets/img/Certificate_ux-ui.png" alt="HTML">
+
+                </div>
+                <div class="certificates-card">
+                    <img src="/assets/img/Certificate_NSO.jpg" alt="HTML">
+                </div>
+            </div>
+
+            <div class="certificates-container" style="justify-content: left;">
+                <div class="certificates-card">
+                    <img src="/assets/img/Certificate_staff.JPG" alt="HTML">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="certificateModal" class="modal">
+        <span class="close">&times;</span>
+        <img id="modalImg" class="modal-content" src="">
+    </div>
+
+    <section class="experience" id="experience" style="padding-top: 4rem;">
+        <h2 class="section-title">
+            Education
+        </h2>
+
+        <div class="timeline">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-item left">
+                <div class="content">
+                    <h3>
+                        มัธยมศึกษาตอนต้น
+                    </h3>
+                    <span class="date">
+                       ปี 2561 - 2563
+                    </span>
+                    <p>โรงเรียนศรีสมเด็จพิมพ์พัฒนาวิทยา</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="content">
+                    <h3>
+                        ประกาศนียบัตรวิชาชีพ
+                    </h3>
+                    <span class="date">ปี 2564 - 2566</span>
+                    <p>วิทยาลัยเทคนิคร้อยเอ็ด <br> แผนกวิชาช่างอิเล็กทรอนิกส์</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="content">
+                    <h3>
+                        ปริญญาตรี
+                    </h3>
+                    <span class="date">2567-ปัจจุบัน</span>
+                    <p>มหาวิทยาลัยศรีปทุมขอนแก่น <br> คณะเทคโนโลยีสารสนเทศ <br> สาขานวัตกรรมธุรกิจดิจิทัล</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Projects" id="Projects">
+        <div class="container">
+            <div class="Projects-box">
+                <div class="project-titel">
+                    <h3>My Projects</h3>
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-card" data-url="assets/project/stay_go_cnx.html"
+                        data-desc="แพลตฟอร์มการท่องเที่ยวอย่างยั่งยืน เชื่อมโยงโรงแรมกับขนส่ง สนับสนุนเศรษฐกิจท้องถิ่นและการท่องเที่ยวสีเขียว">
+                        <img src="/assets/img/stay_go1.png" alt="Project 3">
+                        <h3>Gosoft Hackathon 2025</h3>
+                        <p>Stay Go CNX - แพลตฟอร์มเพื่อการท่องเที่ยวอย่างยั่งยืน</p>
+                    </div>
+
+                    <div class="project-card" data-url="assets/project/fit_connect.html"
+                        data-desc="โปรเจกต์แนวคิดแอปหาเพื่อนออกกำลังกายโดยใช้ Empathy Map Canvas วิเคราะห์ปัญหาของผู้ใช้ เช่น หาคู่ซ้อมยาก ไม่มีแรงจูงใจ และเพิ่มความปลอดภัยด้วยระบบแชทและรีวิว">
+                        <img src="/assets/img/Fit1.png" alt="Project 1">
+                        <h3>Empathy Map Canvas วิเคราะห์ปัญหาของผู้ใช้</h3>
+                        <p>Fit Connect - แอปหาเพื่อนออกกำลังกาย</p>
+                    </div>
+
+                    <div class="project-card" data-url="assets/project/bobby_sox.html"
+                        data-desc="เว็บไซต์ขายต้นไม้โดยใช้ WordPress + WooCommerce เพื่อจัดการสินค้า ระบบสั่งซื้อ และชำระเงินอย่างครบวงจร">
+                        <img src="/assets/img/bobbysox_01.jpg" alt="Project 2">
+                        <h3>WordPress ร่วมกับปลั๊กอิน WooCommerce</h3>
+                        <p>bobby sox - เว็บไซต์ขายต้นไม้ออนไลน์</p>
+                    </div>
+
+                    <div class="project-card" data-url="assets/project/nsc_2025.html"
+                        data-img="assets/img/Dream Shop Journey.jpg"
+                        data-desc="เกมจำลองการบริหารชีวิตและการเงิน พัฒนาแนวคิดในโครงการ NSC 2025 เพื่อฝึกทักษะการวางแผนชีวิตและธุรกิจ">
+                        <img src="/assets/img/nsc1.JPG" alt="Project 4">
+                        <h3>NSC 2025</h3>
+                        <p>Dream Shop Journey - เกมจำลองการบริหารชีวิตและการเงิน</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-social">
+                <a href="https://www.facebook.com/tunpisit.jatavayos.2025?locale=th_TH" aria-label="Facebook"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://discord.gg/YUF5Uq3d" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://github.com/tunpisit-jat" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tunpisit-jatavayos-16bba8356/" aria-label="LinkedIn"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+            <p class="footer-copy">&copy; 2025 Designed by <span>TUNPISIT JATAVAYOS</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
