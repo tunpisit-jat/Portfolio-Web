@@ -1,0 +1,99 @@
+/* ---------- Project Detail Page ---------- */
+
+.project-detail {
+  padding: 50px 20px 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-header h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: .5rem;
+}
+
+.project-header .subtitle {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: start;
+  margin-top: 3rem;
+}
+
+.project-img img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.729);
+}
+
+.project-info h2,
+.project-info h3 {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.project-info p {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.project-info ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.project-info li {
+  margin-bottom: 6px;
+}
+
+.project-links {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0078ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #005fcc;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #0078ff;
+  color: #0078ff;
+}
+
+.btn-outline:hover {
+  background: #0078ff;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-content {
+    grid-template-columns: 1fr;
+  }
+}
